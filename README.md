@@ -230,20 +230,6 @@ The presentation covers:
 - Explanation of metrics like **RMSE**, **R²**, **CVRMSE**, and **NMBE**
 - Final **results and visualizations** showing the energy savings achieved by the AltoTech AI system
 
----
-
-## Future Considerations
-
-### 🔄 IoT Integration & Daily Prediction Updates
-
-Integrate **IoT sensors** within the plant to collect **real-time energy and environmental data** (e.g., temperature, humidity). This data can be used to **update energy consumption predictions daily**, ensuring the dashboard reflects the most **current conditions**.
-
-This approach provides:
-- **Timely insights**
-- **Faster detection of inefficiencies**
-- **More accurate, adaptive energy management**
-
-By continuously updating energy predictions on a daily basis, the system ensures that plant operators are always working with the latest data to optimize energy usage effectively.
 
 
 
