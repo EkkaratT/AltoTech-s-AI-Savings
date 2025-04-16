@@ -215,6 +215,24 @@ By comparing the predicted and actual energy usage **before and after** the AI s
 - **Percentage savings**
 - **Estimated cost savings in THB**
 
+## 📎 Additional Details
+
+For more information on the **methodology**, including:
+- Data preprocessing  
+- Feature selection  
+- Model choices  
+- Interpretation of evaluation metrics  
+
+Please refer to the presentation file included in this repository:
+
+📑 [View the Presentation](https://docs.google.com/presentation/d/1g75s5dItdXEJb54ZzC8NsOkwO11g52OB5e8o4_7oGUs/edit?slide=id.g34ca5553ec0_0_72#slide=id.g34ca5553ec0_0_72)
+
+The presentation covers:
+- Key decisions behind **regression model selection**
+- How **weather data** was integrated into the analysis
+- Explanation of metrics like **RMSE**, **R²**, **CVRMSE**, and **NMBE**
+- Final **results and visualizations** showing the energy savings achieved by the AltoTech AI system
+
 ---
 
 ## 🌱 Future Considerations
