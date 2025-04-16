@@ -149,21 +149,18 @@ http://127.0.0.1:8050/ to view the dashboard.
 #### 1. Build the Docker image:
 In the project directory, run:
 ```bash
-docker build -t energy-savings-dashboard .
+docker build -t energy-dash-app .
 ```
 
 #### 2. Run the Docker container:
 After building the image, run the app in a container:
 ```bash
-docker run -p 8050:8050 energy-savings-dashboard
+docker run -p 8050:8050 energy-dash-app
 ```
 
 #### 3. Access the app:
 Open your browser and go to:
 http://localhost:8050/ to see the dashboard running.
-```bash
-python app.py
-```
 
 ---
 
