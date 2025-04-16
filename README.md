@@ -98,6 +98,7 @@ Displays key performance indicators, including:
 - Visualizes key weather conditions over time:
   - Temperature
   - Humidity
+  - Feelslike
   - Wind speed
   - UV index
 - Allows users to explore how **weather affects energy consumption and savings**.
