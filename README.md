@@ -215,7 +215,7 @@ By comparing the predicted and actual energy usage **before and after** the AI s
 - **Percentage savings**
 - **Estimated cost savings in THB**
 
-## 📎 Additional Details
+## Additional Details
 
 For more information on the **methodology**, including:
 - Data preprocessing  
@@ -235,7 +235,7 @@ The presentation covers:
 
 ---
 
-## 🌱 Future Considerations
+## Future Considerations
 
 ### 🔄 IoT Integration & Daily Prediction Updates
 
