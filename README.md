@@ -1,7 +1,8 @@
 # ⚡ AltoTech AI Savings
 
 
-## 📘 Project Overview
+
+## Overview
 
 This project evaluates the energy consumption of plants **before and after** the installation of the **AltoTech AI system**. By integrating weather data, the project explores how **external weather conditions influence energy usage** and examines whether the AltoTech AI system contributes to **energy savings**.
 
@@ -9,7 +10,7 @@ The goal is to assess the system's effectiveness in **reducing energy consumptio
 
 ---
 
-## 🎯 Key Objectives
+## Key Objectives
 
 - **Evaluate energy savings**  
   Analyze the reduction in energy consumption after implementing the AltoTech AI system.
@@ -22,7 +23,7 @@ The goal is to assess the system's effectiveness in **reducing energy consumptio
 
 ---
 
-## 📂 Datasets Used
+## Datasets Used
 
 The project combines **energy consumption** and **weather data** to assess energy usage trends:
 
@@ -44,13 +45,13 @@ The project combines **energy consumption** and **weather data** to assess energ
 
 ---
 
-## 🧪 Steps Involved
+## Steps Involved
 
-### 1. 📥 Loading and Cleaning the Data
+### 1. Loading and Cleaning the Data
 - Import datasets and rename columns for consistency.
 - Check for **missing values** or **data anomalies** to ensure data quality.
 
-### 2. 📊 Exploring the Data
+### 2. Exploring the Data
 - Visualize **energy consumption trends** before and after AI installation.
 - Plot **weather trends** to see how weather patterns align with energy usage.
 
@@ -58,19 +59,19 @@ The project combines **energy consumption** and **weather data** to assess energ
 - Merge energy and weather datasets using **common date columns**.
 - Create a combined dataset to analyze **weather–energy relationships**.
 
-### 4. 🧹 Data Preprocessing
+### 4. Data Preprocessing
 - **Scale numerical features** for consistency and better model performance.
 - Add **sine and cosine transformations** to capture **monthly seasonality**.
 - Split data into **training and testing sets** for evaluation.
 
-### 5. 🤖 Modeling
+### 5. Modeling
 - Build and compare the performance of different regression models:
   - Linear Regression
   - Ridge Regression
   - Random Forest
   - Gradient Boosting
 
-### 6. 📈 Evaluation
+### 6. Evaluation
 - Use **cross-validation** to evaluate model performance.
 - Metrics used:
   - **Root Mean Squared Error (RMSE)**
@@ -78,13 +79,13 @@ The project combines **energy consumption** and **weather data** to assess energ
   - **Coefficient of Variation RMSE (CVRMSE)**
   - **Normalized Mean Bias Error (NMBE)**
 
-## 🚀 Features of the Application
+## Features of the Application
 
-### 🔋 Energy Predictions
+### Energy Predictions
 - Compares **real-time predicted** vs. **actual energy consumption** for the plant.
 - Helps users understand how well the models perform in forecasting energy usage.
 
-### 📊 KPI Display
+### KPI Display
 Displays key performance indicators, including:
 - **Total predicted energy**
 - **Actual energy consumption**
@@ -100,7 +101,7 @@ Displays key performance indicators, including:
   - UV index
 - Allows users to explore how **weather affects energy consumption and savings**.
 
-### 📈 Model Metrics
+### Model Metrics
 - Shows performance metrics for each model:
   - **R²** (coefficient of determination)
   - **RMSE** (Root Mean Square Error)
@@ -114,7 +115,7 @@ Displays key performance indicators, including:
   - Compare **weather conditions** and **energy consumption**
   - Understand the **impact of AltoTech AI** on reducing energy usage
 
-## 🛠️ Installation / Setup
+## Installation / Setup
 
 ### 💻 Local Setup
 
@@ -164,7 +165,7 @@ python app.py
 
 ---
 
-## 🤖 Model Explanation
+## Model Explanation
 
 This project evaluates different **regression models** to predict energy consumption and savings:
 
@@ -182,7 +183,7 @@ A **boosting method** that combines the predictions of many weak learners to imp
 
 ---
 
-## 📏 Model Evaluation Metrics
+## Model Evaluation Metrics
 
 - **R² (Coefficient of Determination)**  
   Measures how well the model explains the **variance** in the energy consumption data.
