@@ -39,6 +39,7 @@ The project combines **energy consumption** and **weather data** to assess energ
 - Weather data from **Thailand**, including:
   - Temperature
   - Humidity
+  - Feelslike
   - Wind speed
   - UV index
 - This data was obtained from **Visual Crossing** and is **time-matched** with the energy consumption data.
