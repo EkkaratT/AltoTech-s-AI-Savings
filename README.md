@@ -56,7 +56,7 @@ The project combines **energy consumption** and **weather data** to assess energ
 - Visualize **energy consumption trends** before and after AI installation.
 - Plot **weather trends** to see how weather patterns align with energy usage.
 
-### 3. 🔗 Merging the Data
+### 3. Merging the Data
 - Merge energy and weather datasets using **common date columns**.
 - Create a combined dataset to analyze **weather–energy relationships**.
 
